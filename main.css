@@ -91,7 +91,39 @@
     bottom: 110px;
     right: 190px;
 }
-
+.text{
+font-weight: 400;
+font-size: 60px;
+line-height: 75%;
+color: #3D3D3D;
+}
+.ab2{
+    color: #3D3D3D;
+    line-height: 140%;
+    width: 740px;
+}
+.aboutflex{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section2flex{
+    display: flex;
+    gap: 90px;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.icon01{
+font-weight: 400;
+font-size: 40px;
+line-height: 75%;
+color: #60C880;
+display: flex;
+gap: 20px;
+align-items: center;
+}
 
 
 
@@ -158,8 +190,31 @@
     right: 105px;
     width: 70px;
 }
-
-
+.section2flex{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 90%;
+    margin-top: 10px;
+    margin: auto;
+}
+.imgfull{
+    width: 100%;
+}
+.aboutflex{
+    width: 100%;
+    gap: 20px;
+}
+.text{
+    font-size: 46px;
+}
+.info_text{
+    width: 100%;
+    font-size: 16px;
+}
+.size{
+    font-size: 16px;
+}
 
 
 
