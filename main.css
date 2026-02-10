@@ -247,6 +247,86 @@ text-decoration-thickness: 0%;
 
 
 
+
+
+
+.section_5{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 200px;
+}
+.box2{
+    width: 520px;
+    height: auto;
+}
+.colorgreyy{
+    background-color: #60C880;
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    outline: 1px solid #D9D9D9;
+    outline-offset: 90px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+}
+.pracktick{
+font-weight: 400;
+font-size: 26px;
+line-height: 75%;
+letter-spacing: 0%;
+text-align: center;
+color: #FFFFFF;
+}
+.effect{
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 280px;
+    margin-top: 10px;
+    align-self:center;
+    height: auto;
+    line-height: 150%;
+}
+.icomZV{
+    background-color: #60C880;
+    width: 90px;
+    height: 90px;
+    outline: 1px solid #60C880;
+    outline-offset: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: -30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.person{
+    position: absolute;
+    top: -30%;
+    left: 40%; background-color: #1B1E31;
+    outline: none;
+}
+.wallet{
+     position: absolute;
+    bottom: -30%;
+    left: 40%; background-color: #1B1E31;
+     outline: none;
+}
+.messange{
+     position: absolute;
+    bottom: 40%;
+    left: 110%; 
+    background-color: #1B1E31;
+     outline: none;
+}
+
+
+
 @media (max-width:510px) {
     .comp{
         display: none;
@@ -337,13 +417,56 @@ text-decoration-thickness: 0%;
 .box{
     flex-direction: column;
 }
+.section_4{
+    height: auto;
+    padding-bottom: 40px;
+}
+.section_5{
+   margin-top: 40px;
+   flex-direction: column;
+}
+.box2{
+    width: 95%;
+    margin: auto;
+}
+.colorgreyy{
+    width: 211px;
+    height: 211px;
+    margin: auto;
+    margin-top: 100px;
+    outline-offset: 44px;
+}
+.pracktick{
+    width: 100%;
+    font-size: 18px;
+}
+.effect{
+    width: 100%;
+    font-size: 14px;
+}
+.icomZV{
+    width: 50px;
+    height: 50px;
+     outline: none;
+     left: -32%;
+}
+.iconpositiv{
+    width: 30px;
+}
+.person{
+    top: -32%;
+    left: 40%; 
+}
+.wallet{
+    bottom: -30%;
+    left: 40%;
+}
+.messange{
 
+    bottom: 40%;
+    left: 109%; 
 
-
-
-
-
-
+}
 
 
 
