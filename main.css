@@ -1,0 +1,192 @@
+
+*{
+    margin: 0px;
+}
+.comp{
+    display: block;
+}
+.phone{
+    display: none;
+}
+.hider1{
+    background-image: url(./photo/image\ 7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.bd_color{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(270deg, rgba(27, 30, 49, 0) 0%, rgba(27, 30, 49, 0.9) 78.13%);;
+}
+.hider_menu{
+    display: flex;
+    width: 82%;
+    height: 100px;
+    margin: auto;
+    justify-content: space-between;
+}
+.aboutmenu,.aboutmenu2{
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 125%;
+    color: #FFFFFF;  
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.aboutmenu2{
+    gap: 10px;
+}
+.border{
+        border-bottom: 0.5px solid gray;
+}
+.text_h1{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 75%;
+    color:#FFFFFF ;
+}
+.info_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    color: #e6e3e3e1;
+}
+.btn{ 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #60C880;
+    color: #FFFFFF;
+    width: 259px;
+     height: 60px;
+     border: none;
+     border-radius: 100px;
+}
+.width1{
+    width: 580px;
+    height: auto;
+}
+.widthTX{
+    width: 520px;
+}
+.about_text_hider{
+    width: 65%;
+    height: 723px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.imgicon{
+    position: absolute;
+    bottom: 110px;
+    right: 190px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:510px) {
+    .comp{
+        display: none;
+    }
+    .phone{
+        display: block;
+    }
+
+
+
+
+    .aboutmenu2{
+        width: 100%;
+        gap: 22px;
+    }
+    .bd_color{
+        background: linear-gradient(0deg, rgba(27, 30, 49, 0) 0%, rgba(27, 30, 49, 0.9) 81.77%);
+
+    }
+    .hider1{
+            height: 610px;
+
+    }
+    .hider_menu{
+        width: 90%;
+        height: 80px;
+    }
+    .text_h1{
+        font-size: 36px;
+        line-height: 80%;
+        width: 95%;
+    }
+    .about_text_hider{
+        width: 90%;
+        justify-content: stretch;
+        margin-top: 50px;
+    }
+    .width1{
+        font-size: 18px;
+        width: 335px;
+        height: auto;
+        line-height: 140%;
+        color: #FFFFFF;
+        font-weight: 100;
+    }
+    .btn{
+        width:237px;
+        height: 50px;
+    }
+.imgicon{
+    position: absolute;
+    bottom: 20px;
+    right: 105px;
+    width: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
