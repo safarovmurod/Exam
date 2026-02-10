@@ -124,9 +124,75 @@ display: flex;
 gap: 20px;
 align-items: center;
 }
+.Ptext
+{
+font-weight: 400;
+color: #3D3D3D;
+font-size: 36px;
+line-height: 75%;
+}
+.ab3,.icontextflex{
+    color: #3D3D3D;
+    width: 850px;
+    height: auto;
+    font-size: 20px;
+    line-height: 170%;
+}
+.icontextflex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.t02{
+    line-height: 170%;
+}
+.aboutflexicon{
+    display: flex;
+    flex-direction: column;
+}
+.abouttext2{
+    display: flex;
+    gap: 50px;
+    border: 1px solid gray;
+    width: 75%;
+    padding: 35px;
+    height: 190px;
+    margin: auto;
+}
+.textstart{
+    width: 79%;
+    margin: auto;
+}
+.img2{
+    width: 40px;
+}
+.section_3{
+    width: 100%;
+    margin-top: 70px;
 
-
-
+}
+.abouttext2{
+    margin: 0;
+    width: 94%;
+    gap: 10px;
+    padding: 10px;
+    height: auto;
+}
+.aboutflexicon{
+    width: 85%;
+    font-size: 20px;
+}
+.icontextflex{
+    width: 100%;
+}
+.Ptext{
+  width: 60%;
+  line-height: normal;
+  font-size: 20px;
+}
+.ab3{
+    font-size: 16px;
+}
 
 
 
@@ -197,6 +263,7 @@ align-items: center;
     width: 90%;
     margin-top: 10px;
     margin: auto;
+    margin-top: 50px;
 }
 .imgfull{
     width: 100%;
