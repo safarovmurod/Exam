@@ -1,4 +1,7 @@
 
+     @import url('https://fonts.cdnfonts.com/css/geometria?styles=17358,17351,17356,17357,17347,17348,17352,17353,17354,17355,17343,17344,17345,17346,17349,17350');
+     @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&display=swap');
+
 *{
     margin: 0px;
 }
@@ -8,6 +11,10 @@
 .phone{
     display: none;
 }
+body{
+    font-family: 'Geometria', sans-serif;
+    font-weight: 400
+}
 .hider1{
     background-image: url(./photo/image\ 7.png);
     background-position: center;
@@ -16,6 +23,8 @@
     width: 100%;
     height: 100vh;
     position: relative;
+     font-family: 'Geometria', sans-serif;
+    font-weight: 400
 }
 .bd_color{
     width: 100%;
@@ -28,6 +37,8 @@
     height: 100px;
     margin: auto;
     justify-content: space-between;
+     font-family: 'Geometria', sans-serif;
+    font-weight: 400
 }
 .aboutmenu,.aboutmenu2{
     font-weight: 500;
@@ -38,6 +49,8 @@
     display: flex;
     align-items: center;
     gap: 70px;
+     font-family: 'Geometria', sans-serif;
+    font-weight: 400
 }
 .aboutmenu2{
     gap: 10px;
@@ -50,12 +63,20 @@
     font-size: 80px;
     line-height: 75%;
     color:#FFFFFF ;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: unset; 
 }
 .info_text{
     font-weight: 400;
     font-size: 20px;
     line-height: 170%;
     color: #e6e3e3e1;
+     font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: unset;
 }
 .btn{ 
     font-weight: 400;
@@ -69,10 +90,18 @@
      height: 60px;
      border: none;
      border-radius: 100px;
+     font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: unset;
 }
 .width1{
     width: 580px;
     height: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: unset;
 }
 .widthTX{
     width: 520px;
@@ -96,6 +125,10 @@ font-weight: 400;
 font-size: 60px;
 line-height: 75%;
 color: #3D3D3D;
+font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: unset;
 }
 .ab2{
     color: #3D3D3D;
@@ -118,7 +151,7 @@ color: #3D3D3D;
 .icon01{
 font-weight: 400;
 font-size: 40px;
-line-height: 75%;
+line-height: 70%;
 color: #60C880;
 display: flex;
 gap: 20px;
@@ -130,6 +163,10 @@ font-weight: 400;
 color: #3D3D3D;
 font-size: 36px;
 line-height: 75%;
+font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: unset;
 }
 .ab3,.icontextflex{
     color: #3D3D3D;
@@ -137,6 +174,17 @@ line-height: 75%;
     height: auto;
     font-size: 20px;
     line-height: 170%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: unset;
+    
+}
+.podrobnoe{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: unset;
 }
 .icontextflex{
     display: flex;
@@ -221,6 +269,10 @@ text-decoration-thickness: 0%;
 }
 .clr{
     color:#3D3D3D;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: unset;
 }
 .clr2{
     color:#3D3D3D;
@@ -228,6 +280,7 @@ text-decoration-thickness: 0%;
 }
 .fontsize{
     font-size: 36px;
+  
 }
 .aboutbox{
     width: 390px;
@@ -260,6 +313,10 @@ text-decoration-thickness: 0%;
 .box2{
     width: 520px;
     height: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: unset;
 }
 .colorgreyy{
     background-color: #60C880;
@@ -276,12 +333,15 @@ text-decoration-thickness: 0%;
 
 }
 .pracktick{
-font-weight: 400;
 font-size: 26px;
 line-height: 75%;
 letter-spacing: 0%;
 text-align: center;
 color: #FFFFFF;
+font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: unset;
 }
 .effect{
     font-size: 18px;
@@ -291,6 +351,10 @@ color: #FFFFFF;
     align-self:center;
     height: auto;
     line-height: 150%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: unset;
 }
 .icomZV{
     background-color: #60C880;
@@ -324,6 +388,41 @@ color: #FFFFFF;
     background-color: #1B1E31;
      outline: none;
 }
+.section_6{
+    margin-top: 250px;
+}
+.sec_5{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: unset; 
+    width: 80%;
+    margin: auto;
+}
+.text2{
+    margin-top: 30px;
+}
+.box_icon{
+    width: 246px;
+    height: 140px;
+    border: 1px solid #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_icon_flex{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+
+
+
+
+
 
 
 
@@ -467,8 +566,31 @@ color: #FFFFFF;
     left: 109%; 
 
 }
-
-
+.icon01{
+    font-size: 20px;
+    line-height: normal;
+}
+.sec_5{
+    width: 80%;
+    margin: auto;
+    line-height: 170%;
+}
+.section_6{
+    width: 100%;
+    margin-top: 130px;
+}
+.box_icon{
+    width: 600px;
+}
+.box_icon_flex{
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+    width: 95%;
+    padding-left: 40px;
+    margin-top: 40px;
+}
 
 
 
