@@ -458,6 +458,40 @@ margin-top: 40px;
     position: absolute;
     right: -36%;
 }
+.sec_8{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.section_8{
+    margin-top: 140px;
+
+}
+
+.boxpictures{
+    border: 1px solid #D9D9D9;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 0 85px;
+    width: 341px;
+    height: 407px;
+    flex-direction: column;
+    gap: 10px;
+}
+.obzor{
+    color: #3D3D3D;
+    width: 341px;
+    height: auto;
+}
+.boxflexpictuures{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 
 
 
@@ -603,6 +637,7 @@ margin-top: 40px;
     left: 109%; 
 
 }
+
 .icon01{
     font-size: 20px;
     line-height: normal;
@@ -635,12 +670,59 @@ margin-top: 40px;
     left: 0px;
     top: 90%;
 }
+.section_7{
+    width: 100%;
+    overflow: hidden;
+}
 .Backendflex{
     display: flex;
      
-    overflow-x: hidden;
+    overflow: hidden;
     width: 90%;
     padding-left: 40px;
+}
+.eneboximg{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
+.section_8{
+    width: 100%;
+    overflow: hidden;
+}
+.boxpictures{
+   
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    height: 247px;
+    gap: 10px; 
+     padding: 30px 30px;
+}
+
+.boxflexpictuures{
+    width:90%;
+    margin: auto;
+   align-items: stretch;
+    margin-top: 40px;
+    gap: 10px;
+    justify-content: start;
+    
+   
+   
+}
+.obzor{
+    width: 90%;
+}
+.imgcar{
+    width: 212px;
+    overflow: hidden;
 }
 
 
