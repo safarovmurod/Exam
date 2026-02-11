@@ -558,6 +558,65 @@ color: #FFFFFF;
     font-size: 16px;
     margin-top: 30px;
 }
+.footer{
+    background-color: #1B1E31;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+}
+.usligifooter{
+color: #FFFFFF;
+width: 458px;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0%;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.text3{
+font-weight: 400;
+font-size: 22px;
+line-height: 75%;
+letter-spacing: 0%;
+padding-bottom: 20px;
+}
+.bntsize{
+    width: 254px;
+    height: 60px;
+}
+.example{
+font-weight: 400;
+font-size: 26px;
+line-height: 75%;
+letter-spacing: 0%;
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-thickness: 0%;
+color: #60C880;
+}
+.emailflex{
+    display: flex;
+    width: 76%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.politik{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-weight: 400;
+    font-size: 16px;   
+    line-height: 170%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+
+
+
 
 
 @media (max-width:510px) {
@@ -792,6 +851,8 @@ color: #FFFFFF;
 .bg_color{
     height: auto;
     padding-bottom: 40px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .top{
@@ -806,21 +867,38 @@ color: #FFFFFF;
 }
 .btn_inputflex{
     flex-direction: column;
-    width: 90%;
+    width: 100%;
 }
 .input{
-    width: 335px;
+    width: 87%;
 }
 .btn3{
-    width: 375px;
+    width: 100%;
+}
+.text3{
+    font-size: 32px;
+}
+.usligifooter{
+    font-size: 22px;
+    font-weight: 700;
+    gap: 15px;
+}
+.emailflex{
+    width: 60%;
 }
 
 
-
-
-
-
-
+.politik{
+    font-size: 12px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 200%;
+    flex-direction: column;
+}
+.footer{
+    overflow: hidden;
+}
 
 
 
