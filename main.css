@@ -492,9 +492,72 @@ margin-top: 40px;
     margin-top: 50px;
 }
 
+.bg_color{
+    width: 100%;
+    height: 640px;
+    background-color: #60C880;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
 
+}
+.colorwhit{
+    color: #FFFFFF;
+}
+.top{
+    margin-top: 150px;
+}
+.abouttextpolitiki{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+input{
+    width: 410px;
+height: 60px;
+padding-left: 40px;
+opacity: 1;
+border-radius: 200px;
+border: none;
+background-color:#60C880 ;
+color: #FFFFFF;
+font-size: 18px;
+outline: none;
+ border: 1px solid #FFFFFF;
+}
+.colorwhit2{
+    color: #FFFFFF;
+}
+.btn3{
+   width: 410px;
+    height: 60px;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#3D3D3D ;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
 
+}
+.btn_inputflex{
+    display: flex;
+    gap: 10px;
+    margin-top: 35px;
+}
+.size2,.size3
+{
 
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
+.size3{
+    font-size: 16px;
+    margin-top: 30px;
+}
 
 
 @media (max-width:510px) {
@@ -726,9 +789,31 @@ margin-top: 40px;
 }
 
 
+.bg_color{
+    height: auto;
+    padding-bottom: 40px;
+}
 
-
-
+.top{
+    margin-top: 20px;
+}
+.colorwhit{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.colorwhit2{
+    margin-top: 5px;
+}
+.btn_inputflex{
+    flex-direction: column;
+    width: 90%;
+}
+.input{
+    width: 335px;
+}
+.btn3{
+    width: 375px;
+}
 
 
 
